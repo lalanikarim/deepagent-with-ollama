@@ -1,0 +1,19 @@
+[project]
+name = "deepagent"
+version = "0.1.0"
+description = "Deep Agent with Ollama - AI agent implementation using Deep Agents framework with Ollama for local LLM processing"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "deepagents>=0.0.12rc3",
+    "langchain>=1.0.0",
+    "langchain-ollama>=0.2.0",
+    "langchain-core>=1.0.0",
+    "langgraph>=0.2.0",
+    "ddgs>=0.6.0",
+    "python-dotenv>=1.0.0",
+    "rich>=13.0.0",
+    "requests>=2.31.0",
+    "pydantic>=2.0.0",
+    "typing-extensions>=4.0.0",
+]

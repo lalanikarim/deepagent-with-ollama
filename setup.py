@@ -122,6 +122,8 @@ def main():
         sys.exit(1)
     
     # Check for configured model
+    # Add core directory to path
+    sys.path.insert(0, str(Path(__file__).parent / "core"))
     from config import Config
     configured_model = Config.OLLAMA_MODEL
     if not check_model_available(configured_model):
@@ -132,11 +134,10 @@ def main():
     
     print("\n✅ Setup completed successfully!")
     print("\n🎉 You can now run the Deep Agent with Ollama examples:")
-    print("  uv run python examples/basic_usage.py")
+    print("  uv run python examples/cli.py")
     print("\n📚 Available modes:")
-    print("  - sync: Synchronous examples")
-    print("  - async: Asynchronous examples") 
-    print("  - interactive: Interactive chat")
+    print("  - cli: Command-line interface example")
+    print("  - interactive: Interactive chat mode")
 
 
 if __name__ == "__main__":

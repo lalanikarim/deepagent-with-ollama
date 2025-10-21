@@ -1,7 +1,7 @@
 [project]
 name = "deepagent"
 version = "0.1.0"
-description = "Deep Agent with Ollama - AI agent implementation using Deep Agents framework with Ollama for local LLM processing"
+description = "Deep Agent with Ollama - Example implementation demonstrating Deep Agents framework with Ollama for local LLM processing"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [

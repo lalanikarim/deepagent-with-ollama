@@ -6,10 +6,10 @@ import sys
 import asyncio
 from pathlib import Path
 
-# Add the src directory to the Python path
-sys.path.insert(0, str(Path(__file__).parent / "src"))
+# Add the core directory to the Python path
+sys.path.insert(0, str(Path(__file__).parent.parent / "core"))
 
-from deepagent import DeepAgent
+from agent import DeepAgent
 from config import Config
 
 

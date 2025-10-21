@@ -33,7 +33,7 @@ deepagent/
 
 ### Prerequisites
 
-1. **Python 3.8+** installed
+1. **Python 3.8+** (recommended: 3.13) installed
 2. **Ollama** installed and running
 3. **uv** package manager (recommended) or pip
 
@@ -84,7 +84,6 @@ uv run python examples/cli.py "Research AI news and calculate metrics" --show-to
 # Interactive mode
 uv run python examples/cli.py
 ```
-
 
 ## 🔧 Configuration
 
